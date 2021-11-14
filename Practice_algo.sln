@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_algo", "Practice_algo.csproj", "{4B2E57CA-A538-4AA4-8D17-9E52D8117DE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Working_Files", "Working_Files", "{CD35D524-2CC5-4334-89DC-8890E4954D32}"
+	ProjectSection(SolutionItems) = preProject
+		..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\16Kints.txt = ..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\16Kints.txt
+		..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\1Kints.txt = ..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\1Kints.txt
+		..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\2Kints.txt = ..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\2Kints.txt
+		..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\4Kints.txt = ..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\4Kints.txt
+		..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\8Kints.txt = ..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\8Kints.txt
+		..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\leipzig100k.txt = ..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\leipzig100k.txt
+		..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\leipzig1m.txt = ..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\leipzig1m.txt
+		..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\leipzig300k.txt = ..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\leipzig300k.txt
+		..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\tale.txt = ..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\tale.txt
+		..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\tinyTale.txt = ..\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\tinyTale.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B2E57CA-A538-4AA4-8D17-9E52D8117DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B2E57CA-A538-4AA4-8D17-9E52D8117DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B2E57CA-A538-4AA4-8D17-9E52D8117DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B2E57CA-A538-4AA4-8D17-9E52D8117DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51560CCD-60F5-42C8-8332-08FAB791C2C4}
+	EndGlobalSection
+EndGlobal
