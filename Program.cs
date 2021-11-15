@@ -23,15 +23,85 @@ namespace Practice_algo
             //Console.WriteLine($"Total Result is {result}");
             //Console.WriteLine($"Total Time Taken is {watcher.Elapsed}");
             //ArraysDemo();
-            Console.ReadLine();
+            //Console.ReadLine();
 
             //Test1BasedArray();
 
             //MultiDimArrays();
 
-            JaggedArrays();
+            //JaggedArrays();
+
+            //IterateOver(new int[4] { 1, 2, 3, 4 });
+
+
+
+            Console.ReadLine();
         }
 
+
+
+
+        static void ArrayTimeComplexity(object[] array)
+        {
+            //access by index O(1)
+            Console.WriteLine(array[0]);
+
+            int length = array.Length;
+            object elementNeeded = new object();
+
+            //searching for an element takes O(n)
+            for (int i = 0; i < length; i++)
+            {
+                if(array[i] == elementNeeded)
+                {
+                    Console.WriteLine("Found!");
+                }
+            }
+
+            //add to a full array
+            var bigArray = new int[length * 2];
+            Array.Copy(array, bigArray,length);
+            bigArray[length + 1] = 10;
+
+
+            //add to the end of the array, when the array is not full O(1);
+            array[length - 1] = 10;
+
+            //When removing an element by it's index you just set it to null 
+            //O(1)
+            array[5] = null;
+
+
+
+
+
+
+        }
+
+
+        private static void RemoveAt(object[] array, int index)
+        {
+            //1,2,3,4,5
+            //index 2
+            //new array will be 1,2,3,5
+            var newArray = new object[array.Length - 1];
+            Array.Copy(array, 0, newArray, 0, index);// 1,2,3
+            Array.Copy(array, index + 1, newArray, index, array.Length - 1 - index);// 5
+
+        }
+
+        private static unsafe void IterateOver(int[] vs)
+        {
+           fixed(int* b = vs)
+           {
+                int* p = b;
+                for (int i = 0; i < vs.Length; i++)
+                {
+                    Console.WriteLine(*p);
+                    p++;
+                }
+           }
+        }
 
         private static void ArraysDemo()
         {
@@ -146,5 +216,9 @@ namespace Practice_algo
 
             Console.ReadLine();
         }
+
+
+
+
     }
 }
