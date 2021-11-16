@@ -46,8 +46,11 @@
   <ItemGroup>
     <Compile Include="CalculateTriplets.cs" />
     <Compile Include="Convert.cs" />
+    <Compile Include="PracticeArrays.cs" />
+    <Compile Include="PracticeSort.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sorting.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
