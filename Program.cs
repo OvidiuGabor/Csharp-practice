@@ -15,7 +15,7 @@ namespace Practice_algo
         {
 
             //var input = Convert.InputFile(@"D:\Projects\C# Practice\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\1Kints.txt");
-            var input = new int[6] { 5, 9, 1, 89, 23, 8 };
+            var input = new int[8] { 3, 2, 5, 5, 1, 0, 7, 8 };
 
             //Sorting.ShellSort(input);
             //Stopwatch watcher = Stopwatch.StartNew();
@@ -24,7 +24,7 @@ namespace Practice_algo
             //BubbleSort(input.ToArray());
             //Console.Write(input.ToArray());
 
-            PracticeSort.SelectionSort(input);
+            PracticeSort.InsertionSort(input);
             Console.ReadLine();
 
         }

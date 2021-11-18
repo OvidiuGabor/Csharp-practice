@@ -98,5 +98,11 @@ namespace Alog_Data_Lib.Tests
             RunTestsForSortAlgorith(PracticeSort.SelectionSort);
         }
 
+        [Test]
+        public void PracticeSInsertionSort_ValidInput_SortedOutput()
+        {
+            RunTestsForSortAlgorith(PracticeSort.InsertionSort);
+        }
+
     }
 }
