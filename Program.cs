@@ -15,7 +15,7 @@ namespace Practice_algo
         {
 
             //var input = Convert.InputFile(@"D:\Projects\C# Practice\Algorithms-CSharp-Course\Algorithms-CSharp-Course\Data\1Kints.txt");
-            var input = new int[8] { 3, 2, 5, 5, 1, 0, 7, 8 };
+            //var input = new int[8] { 3, 2, 5, 5, 1, 0, 7, 8 };
 
             //Sorting.ShellSort(input);
             //Stopwatch watcher = Stopwatch.StartNew();
@@ -24,10 +24,30 @@ namespace Practice_algo
             //BubbleSort(input.ToArray());
             //Console.Write(input.ToArray());
 
-            PracticeSort.InsertionSort(input);
+            //PracticeSort.InsertionSort(input);
+            //ListDemo.Run();
+            //Node first = new Node() { Value = 5 };
+            //Node second = new Node() { Value = 1 };
+
+            //first.Next = second;
+
+            //Node third = new Node() { Value = 3 };
+            //second.Next = third;
+
+
+            //PrintOutLinKedList(first);
+
             Console.ReadLine();
 
         }
+        //private static void PrintOutLinKedList(Node node)
+        //{
+        //    while (node != null)
+        //    {
+        //        Console.WriteLine(node.Value);
+        //        node = node.Next;
+        //    }
+        //}
 
         private static int RecursiveFactorial(int number)
         {
